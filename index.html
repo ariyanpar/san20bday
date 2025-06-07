@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Birthday Surprise with Balloons</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+  <img class="bottom-gif bottom-left-gif" src="kitty2.gif" alt="left decoration">
+  <img class="bottom-gif bottom-right-gif" src="kitty2.gif" alt="right decoration">
+
+  <img class="banner" src="banner.png" alt="Happy Birthday Banner" />
+  <div class="name-plate">💞🍓SANCHAITA🍓💞</div>
+
+  <div class="cake-container" id="cake-container" title="Click the candle to extinguish!">
+    <div class="plate"></div>
+    <div class="layer layer-bottom"></div>
+    <div class="layer layer-middle"></div>
+    <div class="layer layer-top"></div>
+    <div class="icing"></div>
+    <div class="drip drip1"></div>
+    <div class="drip drip2"></div>
+    <div class="drip drip3"></div>
+    <div class="candle">
+      <div class="flame" id="flame"></div>
+    </div>
+  </div>
+
+  <div class="instruction-text" id="instruction-text">Click the candle to extinguish the flame!</div>
+  <div class="extinguish-message" id="extinguish-message">Happy 20 years of travelling round the earth xD!</div>
+  <div id="balloon-container"></div>
+
+  <div id="confetti-container"></div>
+
+  <div class="gift-container" id="gift-container">
+    <div class="box" id="giftBox">
+      <div class="box-body">
+        <img class="img" src="https://via.placeholder.com/150" alt="Gift Image" />
+        <div class="box-lid">
+          <div class="box-bowtie"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="videoContainer">
+    <video id="video" controls>
+      <source src="san-video.mov" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <audio id="birthday-sound" src="birthday-song.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
